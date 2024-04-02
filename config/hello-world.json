@@ -4,7 +4,8 @@
     {
       "comment": "A complete Hello World instance",
       "@type": "HelloWorld",
-      "@id": "urn:my-hello-world:core:HelloWorld"
+      "@id": "urn:my-hello-world:core:HelloWorld",
+      "storage": "urn:solid-server:default:AccountStorage"
     }
   ]
 }
