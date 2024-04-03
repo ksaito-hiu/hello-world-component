@@ -18,6 +18,7 @@ export class HelloWorld extends Initializer {
   public constructor(storage: AccountLoginStorage<Record<string, never>>) {
     super();
     this.storage = storage as unknown as typeof this.storage;
+console.log(this.storage);
   }
 
   public async handle(input: void): Promise<void> {
